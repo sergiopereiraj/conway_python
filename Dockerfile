@@ -1,7 +1,7 @@
 # Usa una imagen base que contenga Python
 FROM python:latest
 
-ENV DISPLAY=host.docker.internal:0
+#ENV DISPLAY=host.docker.internal:0
 
 # Establece el directorio de trabajo dentro del contenedor
 WORKDIR /app
